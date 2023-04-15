@@ -1,0 +1,60 @@
+.b-image{
+    position: relative;
+    height: 350px;
+    padding: 1px;
+    background-color: grey;
+    background-image: url("../images/ufo-bg.jpg");
+    background-attachment: fixed;
+    background-position: top center;
+    background-size: cover; 
+}
+
+.centerwhite {
+    text-align: center;
+    color: white;
+}
+
+.centerpurple {
+    text-align: center;
+    color: rgb(229, 96, 35);
+}
+
+
+@keyframes gm-slidein {
+    from {
+        -webkit-transform:translate3d(0,-100%,0);
+        opacity:0;
+        transform:translate3d(0,-100%,0);
+    }
+  
+    to {
+        -webkit-transform:none;
+        opacity:1;
+        transform:none;
+    }
+}
+
+.animate4 {
+    -moz-animation:gm-slidein 5s 1;
+    -ms-animation:gm-slidein 5s 1;
+    -o-animation:gm-slidein 5s 1;
+    -webkit-animation:gm-slidein 5s 1;
+    animation:gm-slidein 5s 1;
+    border-bottom:1px solid #FFF;
+    margin:0 auto;
+    max-width:50%;
+    padding:0 0 0;
+    text-align:center;
+}
+.animate2 {
+    -moz-animation:gm-slidein 2s 1;
+    -ms-animation:gm-slidein 2s 1;
+    -o-animation:gm-slidein 2s 1;
+    -webkit-animation:gm-slidein 2s 1;
+    animation:gm-slidein 2s 1;
+    border-bottom:1px solid #FFF;
+    margin:0 auto;
+    max-width:50%;
+    padding:0 0 0;
+    text-align:center;
+}
